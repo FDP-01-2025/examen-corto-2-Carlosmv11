@@ -64,7 +64,7 @@ int dinero = 1000, edad, categoria, compra, total;
             }
         break;
         case 2:
-            cout << "Categoria de estudiantes" << endl;
+            cout << "Categoria de profesionales" << endl;
             cout << "Selecciona tu compra" << endl;
             cout <<  "1. Laptop Avanzada: $1500" << endl;
             cout <<  "2. Tablet Pro: $1200" << endl;
@@ -75,7 +75,7 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 1350)
                 {
                 total = (dinero - 1350);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
+                cout << "Has adquirido un descuento del 10% por ser profesional " << endl;
                 cout << "laptop Laptop Avanzada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
@@ -87,7 +87,7 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 1080)
                 {
                 total = (dinero - 1080);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
+                cout << "Has adquirido un descuento del 10% por ser profesional" << endl;
                 cout << "Tablet Pro comprada" << endl;
                 cout << "Tu cambio es: "<< total << endl; 
                 } else
@@ -99,7 +99,7 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 1800)
                 {
                 total = (dinero - 720);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
+                cout << "Has adquirido un descuento del 10% por ser profesional" << endl;
                 cout << "Estación de Trabajo comprada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
@@ -123,7 +123,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 900)
                 {
                 total = (dinero - 900);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "laptop Basica comprada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
@@ -135,7 +134,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 600)
                 {
                 total = (dinero - 600);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "Tablet Estudiantil comprada" << endl;
                 cout << "Tu cambio es: "<< total << endl; 
                 } else
@@ -147,7 +145,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 700)
                 {
                 total = (dinero - 700);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "Chromebook comprada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
@@ -159,7 +156,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 1500)
                 {
                 total = (dinero - 1500);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "laptop Laptop Avanzada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
@@ -171,7 +167,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 1200)
                 {
                 total = (dinero - 1200);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "Tablet Pro comprada" << endl;
                 cout << "Tu cambio es: "<< total << endl; 
                 } else
@@ -183,7 +178,6 @@ int dinero = 1000, edad, categoria, compra, total;
                 if (dinero >= 2000)
                 {
                 total = (dinero - 2000);
-                cout << "Has adquirido un descuento del 20% por ser estudiante" << endl;
                 cout << "Estación de Trabajo comprada" << endl;
                 cout << "Tu cambio es: " << total << endl; 
                 } else
